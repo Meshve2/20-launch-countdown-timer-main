@@ -1,0 +1,129 @@
+.body {
+    font-family: 'Red Hat Text', sans-serif;
+    background-repeat: no-repeat;
+    background-position: right top, right bottom;
+    background-image: url(img/bg-stars.svg), url(img/pattern-hills.svg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(25, 26, 35, 1);
+    text-transform: uppercase;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.h3box {
+    width: 327px;
+}
+
+.h3 {
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 6.14px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.datamainbox {
+    display: flex;
+    flex-direction: row;
+    width: 340px;
+    height: 92px;
+    margin-top: 54px;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.nummmbox {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.onlynumbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 66px;
+    background-color: rgba(52, 54, 80, 1);
+    border-radius: 4px;
+    color: rgba(251, 94, 132, 1);
+    font-size: 36px;
+    letter-spacing: -1.8px;
+}
+
+.text {
+    color: rgba(131, 133, 169, 1);
+    font-size: 7px;
+    line-height: 7px;
+    letter-spacing: 2.96px;
+}
+
+.socialbox {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-top: 80px;
+}
+
+.soc {
+    fill: rgba(131, 133, 169, 1)
+}
+
+@media screen and (min-width: 1024px) {
+    .h3box {
+        width: 440px;
+    }
+
+    .h3 {
+        font-size: 22px;
+        letter-spacing: 7.5px;
+        line-height: 29.11px;
+    }
+
+    .datamainbox {
+        width: 695px;
+        height: 184px;
+    }
+
+    .nummmbox {}
+
+    .onlynumbox {
+        width: 148px;
+        height: 124px;
+        border-radius: 8px;
+        font-size: 80px;
+        letter-spacing: -2.4px;
+    }
+
+    .text {
+        font-size: 14px;
+        letter-spacing: 6px;
+    }
+
+    .socialbox {
+        margin-top: 200px;
+    }
+
+    .soc {
+        fill: rgba(131, 133, 169, 1)
+    }
+
+    .soc:hover {
+        cursor: pointer;
+        fill: rgba(251, 94, 132, 1);
+        transition: 0.6s;
+    }
+}
